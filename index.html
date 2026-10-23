@@ -38,13 +38,13 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{margin:0;font-family:ui-rounded,"SF Pro Rounded","Nunito","Segoe UI Rounded","Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;color:var(--ink);background:var(--cream);line-height:1.55}
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 a{color:var(--green-d)}
 .skip{position:absolute;left:-999px;top:0;background:#000;color:#fff;padding:.6rem 1rem;z-index:9}
 .skip:focus{left:.5rem}
 .wrap{max-width:640px;margin:0 auto;padding:0 18px}
 header.hero{background:linear-gradient(180deg,var(--green) 0%,var(--green-d) 100%);color:#fff;padding-bottom:28px;border-radius:0 0 32px 32px;overflow:hidden}
-.banner{width:100%;aspect-ratio:3/1;object-fit:cover;background:#2b6b38}
+.banner{width:100%;height:auto;aspect-ratio:5/2;object-fit:cover;object-position:center 30%;background:#2b6b38}
 .avatar{width:112px;height:112px;border-radius:50%;border:5px solid #fff;margin:-56px auto 0;position:relative;background:#fff;box-shadow:0 6px 18px rgba(0,0,0,.25)}
 .hero h1{font-size:clamp(1.8rem,7vw,2.5rem);margin:.5rem 0 .25rem;text-align:center;line-height:1.15;letter-spacing:-.01em}
 .hero h1 .r{color:#ffd0d6}.hero h1 .g{color:#c9ffd6}
@@ -67,7 +67,7 @@ h2::before{content:"";width:12px;height:28px;border-radius:6px;background:linear
 .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
 @media(min-width:560px){.grid{grid-template-columns:repeat(3,1fr)}}
 .card{display:block;text-decoration:none;color:var(--ink);background:var(--card);border-radius:18px;overflow:hidden;box-shadow:0 4px 14px rgba(20,60,30,.12);position:relative}
-.card img{width:100%;aspect-ratio:9/16;object-fit:cover;background:#cfe8d4}
+.card img{width:100%;height:auto;aspect-ratio:9/16;object-fit:cover;background:#cfe8d4}
 .card .t{padding:9px 11px 12px;font-weight:800;font-size:.93rem;line-height:1.25}
 .card .t span{display:block;font-weight:600;color:var(--muted);font-size:.8rem;margin-top:3px}
 .card .play{position:absolute;top:10px;right:10px;width:38px;height:38px;border-radius:50%;background:rgba(215,38,61,.92);display:grid;place-items:center}
