@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://reghson.github.io/redgreenstories/sitemap.xml
